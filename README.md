@@ -168,7 +168,7 @@ As we know, `Roar::Decorator` uses `Representable::Decorator` as a superclass, t
 
 If you use the online demo, make sure your API supports foreign requests by enabling CORS in Grape, otherwise you'll see the API description, but requests on the API won't return. Use [rack-cors](https://github.com/cyu/rack-cors) to enable CORS.
 
-````ruby
+```ruby
 require 'rack/cors'
 use Rack::Cors do
   allow do
